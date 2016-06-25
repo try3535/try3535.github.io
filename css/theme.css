@@ -1,0 +1,10 @@
+.center-box
+{
+	height:800px;
+	width:200px;
+	padding:400px 200px 100px 200px;
+}
+body{
+	color:red;
+	bgcolor:blue;
+}
