@@ -13,7 +13,7 @@
 	$(".fa-quote-right").css("color",rgb(r,g,b));
 	$("#add-content").css("color",rgb(r,g,b));
 	$(".next-button").css("background-color",rgb(r,g,b));
-	$.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=?",function(a){
+	$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=?",function(a){
 		$("#add-content").html("a[0].content");
 	});
 }
